@@ -1,13 +1,22 @@
-# Dependências
+# Node / Next.js
 node_modules/
+.next/
+out/
+
+# Ambiente
+.env
+.env.*.local
+!.env.example
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Sistema operacional
+# Misc
 .DS_Store
-
-# Ambiente
-.env
+.vercel
+coverage/
+dist/
+EOF
